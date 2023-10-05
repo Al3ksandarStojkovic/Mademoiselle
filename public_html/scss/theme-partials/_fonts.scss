@@ -1,0 +1,14 @@
+
+//theme fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+//font-family: 'Lato', sans-serif;
+$lato: 'Lato', sans-serif;
+
+@font-face{
+    font-family: 'Bodoni72';
+    src: url('fonts/Bodoni Book/Bodoni-Book.eot')format('eot'),
+        url('fonts/Bodoni Book/Bodoni-Book.ttf')format('ttf'),
+        url('fonts/Bodoni Book/Bodoni-Book.woff')format('woff'),
+        url('fonts/Bodoni Book/Bodoni-Book.woff2')format('woff2');
+}
+$bodoni: 'Bodoni72', sans-serif;
