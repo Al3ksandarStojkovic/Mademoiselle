@@ -1,0 +1,27 @@
+$blog-content-bg: #ffffff;
+$blog-news-weight : $font-weight-normal;
+$blog-news-color : $gray-900;
+
+.blog-section{
+    padding: 50px 0;
+    .blog-item-content{
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        padding: 22px 18px 57px;
+        background-color: $blog-content-bg;
+        .blog-news{
+            font-weight: $blog-news-weight;
+            height: 2*2.4rem;
+            overflow: hidden;
+            color: $blog-news-color;
+        }//.blog-news end
+    }//blog-content end
+}//blog section end
+
+@media(min-width:992px){
+    .blog-section{
+        padding: 75px 0 56px;
+    }
+}

@@ -156,13 +156,13 @@ sup {
 }
 
 a {
-  color: #ECD9D9;
+  color: #1E1E1E;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #d3a6a6;
+  color: black;
   text-decoration: underline;
 }
 
@@ -2892,12 +2892,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #ECD9D9;
+  color: #1E1E1E;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #d3a6a6;
+  color: black;
   text-decoration: underline;
 }
 
@@ -4753,14 +4753,14 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #ECD9D9;
+  color: #1E1E1E;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #d3a6a6;
+  color: black;
   text-decoration: none;
   background-color: #e9ecef;
   border-color: #dee2e6;
@@ -9823,6 +9823,21 @@ body {
   font-weight: 300;
 }
 
+.section-title {
+  font-size: 3rem;
+  line-height: 4.5rem;
+  letter-spacing: 5px;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  width: 7.4rem;
+  height: 1px;
+  background-color: #ECD9D9;
+  margin-top: 2rem;
+}
+
 header .navbar .navbar-brand {
   max-width: 50%;
 }
@@ -9905,6 +9920,32 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
 @media (min-width: 1200px) {
   .lead-section {
     padding: 218px 0 269px;
+  }
+}
+
+.blog-section {
+  padding: 50px 0;
+}
+
+.blog-section .blog-item-content {
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 22px 18px 57px;
+  background-color: #ffffff;
+}
+
+.blog-section .blog-item-content .blog-news {
+  font-weight: 400;
+  height: 4.8rem;
+  overflow: hidden;
+  color: #1E1E1E;
+}
+
+@media (min-width: 992px) {
+  .blog-section {
+    padding: 75px 0 56px;
   }
 }
 

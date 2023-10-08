@@ -6,4 +6,16 @@ body{
     font-family: $base-font;
     font-weight: $font-weight-light;
 }
-
+.section-title{
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 5px;
+    &:after{
+        content: "";
+        display: block;
+        width: 7.4rem;
+        height: 1px;
+        background-color: $primary;
+        margin-top: 2rem;
+    }
+}
