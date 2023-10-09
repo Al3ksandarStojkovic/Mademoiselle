@@ -20,8 +20,8 @@ $blog-news-color : $gray-900;
     }//blog-content end
 }//blog section end
 
-@media(min-width:992px){
+@media(min-width:768px){
     .blog-section{
-        padding: 75px 0 56px;
+        padding: 75px 0 100px;
     }
 }
