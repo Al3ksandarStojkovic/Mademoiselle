@@ -22,4 +22,15 @@ $(document).ready(function(){
         animation();
     });
     animation();
+    
+    //member-slider
+    if(('.member-slider').length > 0){
+        $(".member-slider").owlCarousel({
+            items: 1,
+            margin: 20,
+            autoplay: true,
+            smartSpeed: 1000,
+            loop: true
+        });
+    }
 });

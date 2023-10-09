@@ -9949,6 +9949,10 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
   }
 }
 
+.service-section {
+  margin-bottom: 50px;
+}
+
 .service-section .section-title {
   margin-bottom: 46px;
 }
@@ -9976,12 +9980,18 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
 }
 
 @media (min-width: 768px) {
+  .service-section {
+    margin-bottom: 80px;
+  }
   .service-section .service-content {
     padding: 15% 5% 0;
   }
 }
 
 @media (min-width: 992px) {
+  .service-section {
+    margin-bottom: 111px;
+  }
   .service-section .service-content {
     padding: 110px 60px 0;
   }
@@ -9990,6 +10000,44 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
 @media (min-width: 1200px) {
   .service-section .service-content {
     padding: 143px 95px 95px;
+  }
+}
+
+.our-professionals .section-title {
+  margin-bottom: 44px;
+}
+
+.our-professionals .member {
+  padding: 54px 30px;
+  border: 1px solid #ECD9D9;
+}
+
+.our-professionals .member .member-content h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 2.7rem;
+}
+
+.our-professionals .member .member-content p {
+  line-height: 2.3rem;
+}
+
+.our-professionals .owl-dots {
+  position: relative;
+  bottom: 50px;
+}
+
+@media (min-width: 1200px) {
+  .our-professionals .member h3 {
+    padding-top: 30px;
+  }
+  .our-professionals .owl-dots {
+    bottom: 90px;
+    left: 0px;
+  }
+  .our-professionals .order-md-0 {
+    margin-right: 160px;
   }
 }
 

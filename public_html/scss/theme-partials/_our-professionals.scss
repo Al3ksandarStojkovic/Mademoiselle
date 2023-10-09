@@ -1,0 +1,42 @@
+
+.our-professionals{
+    .section-title{
+        margin-bottom: 44px;
+    }
+    .member{
+        padding: 54px 30px;
+        border: 1px solid $primary;
+        .member-content{
+            h3{
+                font-family: $lato;
+                font-weight: $font-weight-normal;
+                font-size: 3rem;
+                line-height: 2.7rem;
+            }
+            p{
+                line-height: 2.3rem;
+            }
+        }
+    }//member end
+    .owl-dots{
+        position: relative;
+        bottom: 50px;
+    }
+}//our-professionals end
+@media(min-width:1200px){
+    .our-professionals{
+        .member{
+            h3{
+                padding-top: 30px;
+            }
+        }
+        .owl-dots{
+            bottom: 90px;
+            left: 0px;
+            
+        }
+        .order-md-0{
+            margin-right: 160px;
+        }
+    }
+}

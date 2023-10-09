@@ -1,6 +1,7 @@
 $content-bg: #F5F5F5;
 
 .service-section{
+    margin-bottom: 50px;
     .section-title{
         margin-bottom: 46px;
     }
@@ -26,6 +27,7 @@ $content-bg: #F5F5F5;
 
 @media(min-width:768px){
     .service-section{
+        margin-bottom: 80px;
         .service-content{
           padding: 15% 5% 0;
         }
@@ -34,6 +36,7 @@ $content-bg: #F5F5F5;
 
 @media(min-width:992px){
     .service-section{
+        margin-bottom: 111px;
         .service-content{
           padding: 110px 60px 0;
         }
