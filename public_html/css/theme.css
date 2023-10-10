@@ -9886,7 +9886,7 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
 }
 
 .lead-section {
-  padding: 150px 0 150px;
+  padding: 170px 0;
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -9949,8 +9949,17 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
   }
 }
 
+.services {
+  padding: 200px 0;
+  margin-bottom: 5rem;
+}
+
+.services h1 {
+  letter-spacing: 1rem;
+}
+
 .service-section {
-  margin-bottom: 50px;
+  margin-bottom: 6rem;
 }
 
 .service-section .section-title {
@@ -9981,7 +9990,7 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
 
 @media (min-width: 768px) {
   .service-section {
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
   }
   .service-section .service-content {
     padding: 15% 5% 0;
@@ -9989,8 +9998,12 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
 }
 
 @media (min-width: 992px) {
-  .service-section {
-    margin-bottom: 111px;
+  .services {
+    padding: 283px 0;
+    margin-bottom: 8.8rem;
+  }
+  .services h1 {
+    letter-spacing: 2rem;
   }
   .service-section .service-content {
     padding: 110px 60px 0;
@@ -9998,6 +10011,9 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
 }
 
 @media (min-width: 1200px) {
+  .service-section {
+    margin-bottom: 11rem;
+  }
   .service-section .service-content {
     padding: 143px 95px 95px;
   }

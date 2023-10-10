@@ -1,7 +1,16 @@
 $content-bg: #F5F5F5;
 
+.services{
+    padding: 200px 0;
+    margin-bottom: 5rem;
+    h1{
+        letter-spacing: 1rem;
+    }
+}//services page end
+
+
 .service-section{
-    margin-bottom: 50px;
+    margin-bottom: 6rem;
     .section-title{
         margin-bottom: 46px;
     }
@@ -10,7 +19,7 @@ $content-bg: #F5F5F5;
         padding: 20% 15%;
         height: 100%;
         .content-title{
-           font-family: $lato;
+            font-family: $lato;
         }
         .more{
             border: 1px solid;
@@ -19,33 +28,45 @@ $content-bg: #F5F5F5;
             border-radius: 0;
             transition: 0.3s linear;
             &:hover{
-               background-color: darken($content-bg,10%);
+                background-color: darken($content-bg,10%);
             }
         }
     }//.service content end
+    
 }//.service section end
+
 
 @media(min-width:768px){
     .service-section{
-        margin-bottom: 80px;
+        margin-bottom: 8rem;
         .service-content{
-          padding: 15% 5% 0;
+            padding: 15% 5% 0;
         }
     }
 }
 
 @media(min-width:992px){
-    .service-section{
-        margin-bottom: 111px;
-        .service-content{
-          padding: 110px 60px 0;
+    .services{
+        padding: 283px 0;
+        margin-bottom: 8.8rem;
+        h1{
+            letter-spacing: 2rem;
         }
-    }
+    }//services page end
+    
+
+    .service-section{
+        .service-content{
+            padding: 110px 60px 0;
+        }
+    }//sevice section end
+    
 }
 @media(min-width:1200px){
     .service-section{
+        margin-bottom: 11rem;
         .service-content{
-          padding: 143px 95px 95px;
+            padding: 143px 95px 95px;
         }
     }
 }
