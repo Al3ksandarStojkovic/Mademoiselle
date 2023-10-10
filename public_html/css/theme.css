@@ -10077,4 +10077,34 @@ footer p {
   font-weight: 400;
 }
 
+.service-single-section {
+  padding: 5rem 0;
+}
+
+.service-single-section .service-single-title {
+  font-family: "Lato", sans-serif;
+  font-size: 4.4rem;
+  font-weight: 400;
+  margin-bottom: 4rem;
+}
+
+.service-single-section .service-single-description {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+@media (min-width: 992px) {
+  .service-single-section {
+    padding: 12rem 0 0;
+    margin-bottom: 12rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .service-single-section {
+    padding: 17rem 0 0;
+    margin-bottom: 18rem;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */

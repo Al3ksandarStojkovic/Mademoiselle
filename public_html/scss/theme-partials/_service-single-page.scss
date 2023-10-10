@@ -1,0 +1,27 @@
+
+.service-single-section{
+    padding: 5rem 0;
+    .service-single-title{
+        font-family: $lato;
+        font-size: 4.4rem;
+        font-weight: $font-weight-normal;
+        margin-bottom: 4rem;
+    }//service single title end
+    .service-single-description{
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
+}
+
+@media(min-width:992px){
+    .service-single-section{
+        padding: 12rem 0 0;
+        margin-bottom: 12rem;
+    }
+}
+@media(min-width:1200px){
+    .service-single-section{
+        padding: 17rem 0 0;
+        margin-bottom: 18rem;
+    }
+}
