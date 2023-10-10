@@ -10041,4 +10041,24 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
   }
 }
 
+footer {
+  padding: 46px 0 25px;
+}
+
+footer .social-media .fa-brands {
+  font-size: 3rem;
+  color: #ECD9D9;
+  margin-bottom: 3.5rem;
+  transition: 0.5s linear;
+}
+
+footer .social-media .fa-brands:hover {
+  transform: rotate(360deg);
+}
+
+footer p {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
 /*# sourceMappingURL=theme.css.map */

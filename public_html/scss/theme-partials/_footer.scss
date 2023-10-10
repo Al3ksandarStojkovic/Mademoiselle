@@ -1,0 +1,19 @@
+
+footer{
+    padding: 46px 0 25px;
+    .social-media{
+        .fa-brands{
+            font-size: 3rem; 
+            color: $primary;
+            margin-bottom: 3.5rem;
+            transition: 0.5s linear;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }//fa brands end
+    }//social media end
+    p{
+            font-size: 1.2rem;
+            font-weight: $font-weight-normal;
+        }
+}
