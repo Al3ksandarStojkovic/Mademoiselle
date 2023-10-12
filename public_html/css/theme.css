@@ -10148,4 +10148,52 @@ footer p {
   }
 }
 
+.blog-single {
+  padding: 50px 0;
+  margin-bottom: 3rem;
+}
+
+.blog-single h6 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.blog-single h6 span {
+  font-weight: 400;
+}
+
+.blog-single .blog-single-item .blog-single-title {
+  font-family: "Lato", sans-serif;
+}
+
+.blog-single .blog-single-item .description {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.blog-single-content {
+  margin-bottom: 15rem;
+}
+
+.blog-single-content .content-desciption p {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 1200px) {
+  .blog-single {
+    margin-bottom: 7rem;
+    padding-top: 165px;
+  }
+  .blog-single .blog-single-title {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    padding-right: 20px;
+  }
+  .blog-single-content {
+    margin-bottom: 27rem;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
