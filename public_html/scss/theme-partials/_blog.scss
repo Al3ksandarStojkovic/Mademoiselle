@@ -1,7 +1,27 @@
 $blog-content-bg: #ffffff;
 $blog-news-weight : $font-weight-normal;
 $blog-news-color : $gray-900;
+$blog-more-news-font : $bodoni;
 
+.blog-lead-section{
+    h1{
+        letter-spacing: 1rem;
+    }
+}//blog page led-section end
+.blog-page-section{
+    .blog-item{
+        margin-bottom: 5.5rem;
+    }
+    .more-news{
+        margin-top: 3.5rem;
+        .page{
+            font-family: $blog-more-news-font;
+        }
+    }//.morenews
+}// blog page section end
+footer.blog{
+    padding: 0 0 25px;
+}
 .blog-section{
     padding: 50px 0;
     .blog-item-content{
@@ -12,7 +32,10 @@ $blog-news-color : $gray-900;
         padding: 22px 18px 57px;
         background-color: $blog-content-bg;
         .blog-news{
+            font-family: $lato;
+            font-size: 1.6rem;
             font-weight: $blog-news-weight;
+            line-height: 2.4rem;
             height: 2*2.4rem;
             overflow: hidden;
             color: $blog-news-color;
@@ -23,5 +46,23 @@ $blog-news-color : $gray-900;
 @media(min-width:768px){
     .blog-section{
         padding: 75px 0 100px;
+    }
+}
+@media(min-width:992px){
+    .blog-lead-section{
+            padding: 200px 0;
+    }
+    .blog-page-section{
+    .blog-item{
+        margin-bottom: 9.5rem;
+    }
+}
+}
+@media(min-width:1200px){
+    .blog-lead-section{
+            padding: 283px 0 263px;
+            h1{
+                letter-spacing: 2rem;
+            }
     }
 }

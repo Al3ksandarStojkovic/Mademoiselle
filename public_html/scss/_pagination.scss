@@ -8,12 +8,12 @@
   position: relative;
   display: block;
   padding: $pagination-padding-y $pagination-padding-x;
-  margin-left: -$pagination-border-width;
+  margin-left: 1rem;
   line-height: $pagination-line-height;
-  color: $pagination-color;
+  color: lighten($gray-900,30);
   text-decoration: if($link-decoration == none, null, none);
   background-color: $pagination-bg;
-  border: $pagination-border-width solid $pagination-border-color;
+  border: none;
 
   &:hover {
     z-index: 2;
@@ -45,8 +45,8 @@
 
   &.active .page-link {
     z-index: 3;
-    color: $pagination-active-color;
-    background-color: $pagination-active-bg;
+    color: $gray-900;
+    background-color: transparent;
     border-color: $pagination-active-border-color;
   }
 

@@ -4745,11 +4745,11 @@ input[type="button"].btn-block {
   position: relative;
   display: block;
   padding: 0.5rem 0.75rem;
-  margin-left: -1px;
+  margin-left: 1rem;
   line-height: 1.25;
-  color: #007bff;
+  color: #65727e;
   background-color: #fff;
-  border: 1px solid #dee2e6;
+  border: none;
 }
 
 .page-link:hover {
@@ -4779,8 +4779,8 @@ input[type="button"].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #fff;
-  background-color: #007bff;
+  color: #212529;
+  background-color: transparent;
   border-color: #007bff;
 }
 
