@@ -9897,7 +9897,6 @@ header .navbar .navbar-nav a:hover, header .navbar .navbar-nav a.active {
   line-height: 5rem;
   text-align: center;
   color: #ffffff;
-  padding: 0 30px;
 }
 
 @media (min-width: 768px) {
@@ -10381,6 +10380,26 @@ footer p {
   .contact-section .embed-map {
     top: 105px;
     height: 561px;
+  }
+}
+
+.error-404 .btn {
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  border-radius: 0;
+  transition: 0.4s linear;
+}
+
+.error-404 .btn:hover {
+  background-color: #ca9595;
+}
+
+@media (min-width: 1200px) {
+  .error-404 {
+    padding: 277px 0;
   }
 }
 

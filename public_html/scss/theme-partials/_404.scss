@@ -1,0 +1,21 @@
+
+.error-404{
+    .btn{
+        color: $white;
+        border: 1px solid $white;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.5px;
+        border-radius: 0;
+        transition: 0.4s linear;
+        &:hover{
+            background-color: darken($primary,20);
+        }
+    }//btn end
+}// error-404 end
+
+@media(min-width:1200px){
+    .error-404{
+            padding: 277px 0;
+    }
+}
