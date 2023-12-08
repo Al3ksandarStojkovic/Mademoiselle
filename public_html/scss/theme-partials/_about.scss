@@ -9,7 +9,7 @@
 .about-content{
     margin-bottom: 7rem;
     .about-item{
-        .about-content-title{
+        h2{
             font-family: $lato;
             padding-right: 40%;
             margin-bottom: 3rem;
@@ -60,7 +60,7 @@
     .about-content{
         margin-bottom: 10rem;
         .about-item{
-            .about-content-title{
+            h2{
                 font-size: 4.4rem;
                 line-height: 5rem;
                 width: 47.5rem;

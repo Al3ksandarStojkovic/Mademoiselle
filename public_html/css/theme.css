@@ -10006,34 +10006,51 @@ footer.blog {
   margin-bottom: 46px;
 }
 
-.service-section .service-content {
-  background-color: #F5F5F5;
-  padding: 20% 15%;
-  height: 100%;
+.service-section .service-item:nth-of-type(even) {
+  background-color: #ECD9D9;
 }
 
-.service-section .service-content .content-title {
+.service-section .service-item:nth-of-type(even) .service-item-data .btn:hover {
+  background-color: #fdfbfb;
+}
+
+.service-section .service-item:nth-of-type(odd) {
+  background-color: #F5F5F5;
+}
+
+.service-section .service-item:nth-of-type(odd) .service-item-data .btn:hover {
+  background-color: gainsboro;
+}
+
+.service-section .service-item .service-item-data {
+  padding: 20% 10%;
+}
+
+.service-section .service-item .service-item-data h2 {
   font-family: "Lato", sans-serif;
 }
 
-.service-section .service-content .more {
-  border: 1px solid;
-  font-weight: 400;
-  font-size: 1.4rem;
+.service-section .service-item .service-item-data .btn {
+  border: 1px solid #000;
   border-radius: 0;
-  transition: 0.3s linear;
-}
-
-.service-section .service-content .more:hover {
-  background-color: gainsboro;
+  padding: 13px 36px 15px;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  transition: all 0.3s linear;
 }
 
 @media (min-width: 768px) {
   .service-section {
     margin-bottom: 8rem;
   }
-  .service-section .service-content {
-    padding: 15% 5% 0;
+  .service-section .service-item:nth-of-type(odd) .service-item-img {
+    order: 1;
+  }
+  .service-section .service-item .service-item-data {
+    padding: 5% 5% 2%;
+  }
+  .service-section .service-item .service-item-img a {
+    height: 100%;
   }
 }
 
@@ -10045,8 +10062,8 @@ footer.blog {
   .services h1 {
     letter-spacing: 2rem;
   }
-  .service-section .service-content {
-    padding: 110px 60px 0;
+  .service-section .service-item .service-item-data {
+    padding: 9% 7%;
   }
 }
 
@@ -10054,8 +10071,8 @@ footer.blog {
   .service-section {
     margin-bottom: 11rem;
   }
-  .service-section .service-content {
-    padding: 143px 95px 95px;
+  .service-section .service-item .service-item-data {
+    padding: 13% 10% 0;
   }
 }
 
@@ -10128,7 +10145,7 @@ footer p {
   margin-bottom: 4rem;
 }
 
-.service-single-section .service-single-description {
+.service-single-section .single-services-text {
   font-size: 1.8rem;
   line-height: 2.6rem;
 }
@@ -10207,7 +10224,7 @@ footer p {
   margin-bottom: 7rem;
 }
 
-.about-content .about-item .about-content-title {
+.about-content .about-item h2 {
   font-family: "Lato", sans-serif;
   padding-right: 40%;
   margin-bottom: 3rem;
@@ -10259,7 +10276,7 @@ footer p {
   .about-content {
     margin-bottom: 10rem;
   }
-  .about-content .about-item .about-content-title {
+  .about-content .about-item h2 {
     font-size: 4.4rem;
     line-height: 5rem;
     width: 47.5rem;

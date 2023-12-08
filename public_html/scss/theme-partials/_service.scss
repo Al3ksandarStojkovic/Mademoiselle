@@ -6,7 +6,8 @@ $content-bg: #F5F5F5;
     h1{
         letter-spacing: 1rem;
     }
-}//services page end
+}
+//services page end
 
 
 .service-section{
@@ -14,34 +15,62 @@ $content-bg: #F5F5F5;
     .section-title{
         margin-bottom: 46px;
     }
-    .service-content{
-        background-color: $content-bg;
-        padding: 20% 15%;
-        height: 100%;
-        .content-title{
-            font-family: $lato;
-        }
-        .more{
-            border: 1px solid;
-            font-weight: $font-weight-normal;
-            font-size: 1.4rem;
-            border-radius: 0;
-            transition: 0.3s linear;
-            &:hover{
-                background-color: darken($content-bg,10%);
+    .service-item:nth-of-type(even){
+        background-color: $primary;
+        .service-item-data{
+            .btn:hover{
+                background-color: lighten($primary,10%)
             }
         }
-    }//.service content end
-    
-}//.service section end
+    }
+    .service-item:nth-of-type(odd){
+        background-color: $content-bg;
+        .service-item-data{
+            .btn:hover{
+                background-color: darken($content-bg,10%)
+            }
+        }
+    }
+    .service-item{
+        .service-item-data{
+            padding: 20% 10%;
+            h2{
+                font-family: $lato;
+            }
+            .btn{
+                border: 1px solid $black;
+                border-radius: 0;
+                padding: 13px 36px 15px;
+                line-height: 1.7rem;
+                letter-spacing: 0.5px;
+                transition:all 0.3s linear;
+            }
+        }
+        //.service-item-data end 
+    }
+    //.service-item end
+
+
+
+}
+//.service section end
 
 
 @media(min-width:768px){
     .service-section{
         margin-bottom: 8rem;
-        .service-content{
-            padding: 15% 5% 0;
+        .service-item:nth-of-type(odd) .service-item-img{
+            order: 1
         }
+        .service-item{
+            .service-item-data{
+                padding: 5% 5% 2%;
+            }
+            .service-item-img a{
+                height: 100%;
+            }
+        }
+
     }
 }
 
@@ -52,21 +81,24 @@ $content-bg: #F5F5F5;
         h1{
             letter-spacing: 2rem;
         }
-    }//services page end
-    
-
+    }
+    //services page end
     .service-section{
-        .service-content{
-            padding: 110px 60px 0;
+        .service-item{
+            .service-item-data{
+                    padding: 9% 7%;     
+            }
         }
-    }//sevice section end
-    
+
+    }
 }
 @media(min-width:1200px){
     .service-section{
         margin-bottom: 11rem;
-        .service-content{
-            padding: 143px 95px 95px;
+        .service-item{
+            .service-item-data{
+                padding: 13% 10% 0;
+            }
         }
     }
 }
